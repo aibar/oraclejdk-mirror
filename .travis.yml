@@ -25,9 +25,9 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-    - curl https://api.bintray.com/content/walkingdevs/mirrors/oraclejdk/${Major}.${Minor}/${Jdk} -v -# \
+    curl https://api.bintray.com/content/walkingdevs/mirrors/oraclejdk/${Major}.${Minor}/${Jdk} -v -# \
            -uaibar:${BintrayKey} \
-           -T ${Jdk}
-    - curl https://api.bintray.com/content/walkingdevs/mirrors/oraclejdk/${Major}.${Minor}/${Jre} -v -# \
+           -T ${Jdk} && \
+    curl https://api.bintray.com/content/walkingdevs/mirrors/oraclejdk/${Major}.${Minor}/${Jre} -v -# \
            -uaibar:${BintrayKey} \
            -T ${Jre}
