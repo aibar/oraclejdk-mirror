@@ -31,5 +31,3 @@ deploy:
     - curl https://api.bintray.com/content/walkingdevs/mirrors/oraclejdk/${Major}.${Minor}/${Jre} -v -# \
            -uaibar:${BintrayKey} \
            -T ${Jre}
-  on:
-    tags: true
