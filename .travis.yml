@@ -8,3 +8,5 @@ deploy:
   provider: script
   skip_cleanup: true
   script: /bin/sh deploy.sh
+  on:
+    tags: true

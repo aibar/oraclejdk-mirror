@@ -1,8 +1,8 @@
 #!/bin/sh
 
 Major=8
-Minor=102
-Build=14
+Minor=112
+Build=16
 
 Jdk=jdk-${Major}.${Minor}.tar.gz
 Jre=jre-${Major}.${Minor}.tar.gz
