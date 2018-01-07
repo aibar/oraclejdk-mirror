@@ -2,7 +2,7 @@
 [ ![Download](https://api.bintray.com/packages/walkingdevs/mirrors/oraclejdk/images/download.svg) ](https://bintray.com/walkingdevs/mirrors/oraclejdk/_latestVersion)
 
 ## Now we can download JDK with plain HTTP and no other options!
-    wget http://dl.bintray.com/walkingdevs/mirrors/jdk-8.112.tar.gz
+    wget http://dl.bintray.com/walkingdevs/mirrors/jdk-8.151.tar.gz
 
 ## And JRE
-    wget http://dl.bintray.com/walkingdevs/mirrors/jre-8.112.tar.gz
+    wget http://dl.bintray.com/walkingdevs/mirrors/jre-8.151.tar.gz
