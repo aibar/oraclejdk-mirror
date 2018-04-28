@@ -26,3 +26,6 @@ function doTheWork {
           -uaibar:${BintrayKey} \
           -T ${Jre}-$1.tar.gz
 }
+
+doTheWork x64
+doTheWork x32
