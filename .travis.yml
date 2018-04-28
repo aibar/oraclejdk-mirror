@@ -5,6 +5,7 @@ before_install:
   - sudo apt-get install -y wget curl
 
 deploy:
-  provider: script
-  skip_cleanup: true
-  script: /bin/sh deploy.sh
+  - Type='jdk' Arc='x64' ./deploy.sh
+  - Type='jdk' Arc='x32' ./deploy.sh
+  - Type='jre' Arc='x64' ./deploy.sh
+  - Type='jre' Arc='x32' ./deploy.sh
