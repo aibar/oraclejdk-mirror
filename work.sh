@@ -1,12 +1,12 @@
 #!/bin/sh
 
 Major=8
-Minor=191
+Minor=211
 Build=12
 
 Version=${Major}.${Minor}
 
-wget http://download.oracle.com/otn-pub/java/jdk/${Major}u${Minor}-b${Build}/2787e4a523244c269598db4e85c51e0c/${Type}-${Major}u${Minor}-linux-${Arc}.tar.gz \
+wget https://download.oracle.com/otn/java/jdk/${Major}u${Minor}-b${Build}/478a62b7d4e34b78b671c754eaaf38ab/${Type}-${Major}u${Minor}-linux-${Arc}.tar.gz?AuthParam=1558340737_d1c88ca920cad1adcebd61f94b80ce68 \
      --header "Cookie: oraclelicense=accept-securebackup-cookie" \
      --no-check-certificate \
      --no-cookies \
